@@ -2,7 +2,7 @@
  *  Name: Erica Eddy
  *  Course: CSCI 241 - Computer Science I
  *  Section: 001 or 002
- *  Assignment: 1
+ *  Assignment: 10
  *
  *  Project/Class Description
  *      This is a test driver for the Assignment 10.
@@ -15,10 +15,10 @@ import java.util.*;
 
 public class Assign10Main
 {
-    public static void main (String [] args)
+    public static void main (String [] args) throws Exception
     {
         // The shorter data file
-        String filename = "students2.txt";
+        String filename = "studentTest.txt";
         
         // Our Registrar object
         Registrar reg = new Registrar (filename);

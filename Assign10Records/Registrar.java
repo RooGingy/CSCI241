@@ -22,7 +22,7 @@ public class Registrar
 {
     // Instance Variables:
     private Student[] student;
-    private int filledPositions = -1;
+    private int filledPositions = 0;
     private boolean arrayFilled = false;    // added an extra instance just to try an extra thing in the code. All functions should still work in the assignment.
 
     /**
