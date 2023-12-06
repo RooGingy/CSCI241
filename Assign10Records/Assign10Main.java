@@ -18,7 +18,7 @@ public class Assign10Main
     public static void main (String [] args) throws Exception
     {
         // The shorter data file
-        String filename = "studentTest.txt";
+        String filename = "students2.txt";
         
         // Our Registrar object
         Registrar reg = new Registrar (filename);
